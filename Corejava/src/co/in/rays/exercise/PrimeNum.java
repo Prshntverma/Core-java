@@ -20,10 +20,10 @@ public class PrimeNum {
 		}
 		
 		if(count==2) {
-			System.out.println(num + " is Prime num....");
+			System.out.println(num + "= is Prime num....");
 			}
 		else {
-			System.out.println(num +"not prime number....");
+			System.out.println(num +"= is not prime number....");
 		}
 		sc.close();	
 	}

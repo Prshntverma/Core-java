@@ -27,6 +27,7 @@ public class UserWeekDays {
 		
 		default : System.out.println("sunday............");
 		}
+      sc.close();
 	}
 
 }

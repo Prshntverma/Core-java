@@ -14,13 +14,15 @@ public class UserInputAmstrong {
 		int b = (num/10)% 10; //MIDDLE DIIGITS
 		int c = num /100; // first digit
 		
-		int sum = a*a*a +b*b*b+ c*c*c;
+		int sum = a*a*a + b*b*b+ c*c*c;
 		 if(num==sum) {
 			 System.out.print("it is Amstrong num: "+ sum);
 		 }
 		 else {
 			 System.out.println("it is not Amstrong num :"+ num);
 		 }
+		 sc.close();
 	}
+	
 
 }
