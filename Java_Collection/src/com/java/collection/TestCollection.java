@@ -17,7 +17,7 @@ public class TestCollection {
 		
 		System.out.println("c :"+c );
 		System.out.println("size of c :"+ c.size());
-		System.out.println(c.contains(4)); // false contains check the number of data 
+		System.out.println(c.contains(4)); // false ----contains check the number of data 
 		System.out.println("---------");
 		System.out.println(c.remove(5)); //o/p  ram , a, true , 12.01  removing the elememt
 		System.out.println(c.contains(5));
