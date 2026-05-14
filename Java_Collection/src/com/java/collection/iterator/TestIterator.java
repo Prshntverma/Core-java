@@ -4,20 +4,20 @@ import java.util.Iterator;
 import java.util.List;
 
 public class TestIterator {
-  
+    
 	public static void main(String[] args) {
-		List list = new ArrayList();
+		List<String> list = new ArrayList<String>();
 		list.add("ram");
 		list.add("am");
 		list.add("m");
 		list.add("ra");
 		list.add("r");
-		list.add("ram!!");
+		list.add("ram!");
 		
 		System.out.println( " list " +list);
 		
 		System.out.println("---------------------------");
-		Iterator it = list.iterator();
+		Iterator<String> it = list.iterator();
 		
 		//list.add("grabs"); //ConcurrentModificationException == fail fast
 		while(it.hasNext()) {
