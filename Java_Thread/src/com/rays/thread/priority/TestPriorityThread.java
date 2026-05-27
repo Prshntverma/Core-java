@@ -1,18 +1,18 @@
 package com.rays.thread.priority;
 
 public class TestPriorityThread {
-public static void main(String[] args) {
-	
-	PriorityThread t1 = new PriorityThread("Ram");
+	public static void main(String[] args) {
 
-	PriorityThread t2 = new PriorityThread("Shyam");
+		PriorityThread t1 = new PriorityThread("Ram");
 
-	// Set thread priorities
-	t1.setPriority(10); // Maximum priority
-	t2.setPriority(1); // Minimum priority
+		PriorityThread t2 = new PriorityThread("Shyam");
 
-	t1.start();
+		// Set thread priorities
+		t1.setPriority(Thread.MAX_PRIORITY); // Maximum priority
+		t2.setPriority(Thread.MIN_PRIORITY); // Minimum priority
 
-	t2.start();
-}
+		t1.start();
+
+		t2.start();
+	}
 }
